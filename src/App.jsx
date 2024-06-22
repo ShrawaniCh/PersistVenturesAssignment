@@ -10,7 +10,7 @@ function App() {
   return (
    
       <Routes>
-        <Route path='/PersistVenturesAssignment' element={<NewsListing/>}/>
+        <Route path='/' element={<NewsListing/>}/>
         <Route path='/news-details/:news_id' element={<NewsDetails/>}/>
 
 
